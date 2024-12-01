@@ -21,15 +21,34 @@
   .jh-scroll-to {
     top: 101%;
   }
+  .account-button h2 {
+    font-size: 26px;
+  }
+  .account-button p {
+    margin-top: 12px;
+    font-size: 15px;
+  }
 }
 @media only screen and (min-width: 341px) and (max-width: 495px) {
   .jh-scroll-to {
     top: 105%;
   }
+  .account-button h2 {
+    font-size: 26px;
+  }
+  .account-button p {
+    margin-top: 12px;
+  }
 }
 @media only screen and (min-width: 496px) and (max-width: 992px) {
   .jh-scroll-to {
     top: 111%;
+  }
+  .account-button h2 {
+    font-size: 30px;
+  }
+  .account-button p {
+    margin-top: 15px;
   }
 }
 

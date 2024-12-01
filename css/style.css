@@ -275,3 +275,59 @@ h1 {
   font-size: 14px;
   margin-bottom: -10px;
 }
+.browser-button a {
+  color: #f80657;
+  border: 2px solid #f80657;
+  border-radius: 10px;
+  padding: 8px 28px;
+  text-decoration: none;
+}
+.browser-button a:hover {
+  border: 2px solid #f80657;
+  padding: 8px 29px;
+}
+/****/
+.account-section {
+  background: linear-gradient(
+      45deg,
+      rgb(139, 145, 221, 0.8),
+      rgb(16, 25, 93, 0.8),
+      rgb(16, 25, 93, 0.8)
+    ),
+    url("../images/image2.jpg");
+  padding-top: 87px;
+  padding-bottom: 113px;
+  margin-bottom: 70px;
+  color: #ffffff;
+}
+.account-button h2 {
+  font-size: 45px;
+  font-family: system-ui;
+}
+.account-button p {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 47px;
+  letter-spacing: 0.4px;
+}
+.account-button a {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  padding: 14px 40px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+/****/
+.feature-heading h2 {
+  font-size: 35px;
+  font-family: system-ui;
+}
+.feature-heading p {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 47px;
+  letter-spacing: 0.4px;
+  color: #888;
+}
