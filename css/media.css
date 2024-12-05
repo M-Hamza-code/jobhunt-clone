@@ -337,6 +337,26 @@
   .mobile-screen-feature {
     display: none;
   }
+  .column1 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .column2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .column3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .column4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .list-inner1 {
+    column-count: 2;
+    column-gap: 40px;
+  }
 }
 @media (min-width: 1202px) {
   .mobile-screen {
@@ -470,6 +490,10 @@
   .mobile-screen-feature {
     display: none;
   }
+  .list-inner1 {
+    column-count: 2;
+    column-gap: 40px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .feature-section {
@@ -480,6 +504,30 @@
   }
   .compaines5-main {
     display: none;
+  }
+  .post1 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .column1 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .column2 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .column3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .column4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .list-inner1 {
+    column-count: 2;
+    column-gap: 40px;
   }
 }
 @media only screen and (min-width: 300px) and (max-width: 767px) {
@@ -535,7 +583,7 @@
     color: #007bff;
     border-color: #007bff;
   }
-  .compaines3-main{
+  .compaines3-main {
     display: none;
   }
   .compaines4-main {
@@ -543,5 +591,61 @@
   }
   .compaines5-main {
     display: none;
+  }
+  .post1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .column1 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .column2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .column3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .column4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .column1-links ul {
+    justify-content: center !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .main-article .main-article2 {
+    max-width: 540px;
+  }
+  .footer-main2 {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .main-article .main-article2 {
+    max-width: 720px;
+  }
+  .footer-main2 {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .main-article .main-article2 {
+    max-width: 960px;
+  }
+  .footer-main2 {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .main-article .main-article2 {
+    max-width: 1170px;
+  }
+  .footer-main2 {
+    max-width: 1170px;
   }
 }
