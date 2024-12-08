@@ -804,11 +804,11 @@ h1 {
   color: #7b8b8e;
 }
 /****/
-.highlight-items {
+.highbeam-items {
   height: 105px;
   margin-bottom: 50px;
 }
-.highlight-items i {
+.highbeam-items i {
   padding: 24px;
   margin-top: 0;
   font-size: 33px;
@@ -826,7 +826,7 @@ h1 {
 .service-text p {
   color: #888 !important;
 }
-.highlight-items i:hover {
+.highbeam-items i:hover {
   color: white;
   background-color: #f80657;
   border: 1px solid #f80657;
